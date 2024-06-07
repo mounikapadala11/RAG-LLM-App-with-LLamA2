@@ -136,3 +136,5 @@ query_wrapper_prompt = SimpleInputPrompt("{query_str}")
 
 The model retrieves responses based on the indexed documents, showcasing the system's capabilities.
 
+Developed a Retrieval-Augmented Generation (RAG) system using LLaMA 2, integrating PDF document indexing and querying with quantization techniques to optimize performance on limited resources. Implemented embeddings with sentence-transformers and combined LLaMA Index and LangChain for efficient document retrieval and question-answering capabilities.
+
